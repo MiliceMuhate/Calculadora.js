@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-mz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <script src="calculadora.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="corpo">
+        <span id="tela">
+            <p id="paragrafo"></p>
+        </span>
+        <div class="blocos">
+
+                <button onclick="escrever('+')" class="opr dgt grid-item" id="soma">+</button>
+                <button onclick="escrever('-')" class="opr dgt grid-item" id="subtracao">-</button>
+                <button onclick="escrever('*')" class="opr dgt grid-item" id="produto">*</button>
+                <button onclick="escrever('/')" class="opr dgt grid-item" id="divisao">/</button>
+                <button onclick="calcular()" class="opr dgt grid-item" id="igual">=</button>
+                <button onclick="escrever('.')" class="opr dgt grid-item" id="virgula">.</button>
+                <button onclick="apagar()" class=" opr dgt grid-item" id="apagar"><<</button>
+                <button onclick="limpar()" class="opr dgt grid-item" id="restaurar">C</button>
+                <button onclick="raiz()" class="opr dgt grid-item" id="Sqrt">r2</button>
+                <button onclick="quadrado()" class="opr dgt grid-item" id="quadrado">x^2</button>
+            
+                <button onclick="escrever('1')" class="num dgt grid-item" id="nr1"><strong>1</strong></button>
+                <button onclick="escrever('2')" class="num dgt grid-item" id="nr2"><strong>2</strong></button>
+                <button onclick="escrever('3')" class="num dgt grid-item" id="nr3"><strong>3</strong></button>
+                <button onclick="escrever('4')" class="num dgt grid-item" id="nr4"><strong>4</strong></button>
+                <button onclick="escrever('5')" class="num dgt grid-item" id="nr5"><strong>5</strong></button>
+                <button onclick="escrever('6')" class="num dgt grid-item" id="nr6"><strong>6</strong></button>
+                <button onclick="escrever('7')" class="num dgt grid-item" id="nr7"><strong>7</strong></button>
+                <button onclick="escrever('8')" class="num dgt grid-item" id="nr8"><strong>8</strong></button>
+                <button onclick="escrever('9')" class="num dgt grid-item" id="nr9"><strong>9</strong></button>
+                <button onclick="escrever('0')" class="num dgt grid-item" id="nr0"><strong>0</strong></button>
+                
+               
+        </div>
+    </div>
+</body>
+</html>
